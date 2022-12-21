@@ -1,0 +1,43 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: hsl(204deg 100% 16%);
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+
+/**
+    Development styles
+    TODO: remove this to remove the blueprint alike look.
+*/
+
+:root {
+    --dev-foreground: hsl(204deg 100% 90%);
+    --dev-background: hsl(204deg 100% 16%);
+}
+
+html, body {
+    background-color: var(--dev-background);
+    color: var(--dev-foreground);
+}
+
+    body * {
+        outline: thin dashed var(--dev-foreground);
+    }

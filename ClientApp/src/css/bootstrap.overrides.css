@@ -1,0 +1,27 @@
+﻿:root {
+    --dev-foreground: hsl(204deg 100% 90%);
+    --dev-background: hsl(204deg 100% 16%);
+    --dev-foreground-muted: hsl(204deg 100% 80%);
+}
+
+.text-muted {
+    color: var(--dev-foreground-muted) !important;
+}
+
+.navbar {
+
+    background-color: var(--dev-background) !important;
+}
+
+.navbar-brand {
+    color: var(--dev-foreground) !important;
+}
+
+.text-dark {
+    color: var(--dev-foreground-muted) !important;
+}
+
+.form-control {
+    background-color: var(--dev-foreground) !important;
+    
+}

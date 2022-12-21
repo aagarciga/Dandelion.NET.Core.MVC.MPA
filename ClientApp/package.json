@@ -1,0 +1,27 @@
+{
+  "name": "mvc-mpa-client",
+  "version": "1.0.0",
+  "description": "ASP.NET Core MVC Mulpti Page Application",
+  "author": "Alex Alvarez Garciga",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "json5": "^2.2.2",
+    "mini-css-extract-plugin": "^2.7.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.2",
+    "jquery-validation": "^1.19.5",
+    "jquery-validation-unobtrusive": "^4.0.0"
+  }
+}
